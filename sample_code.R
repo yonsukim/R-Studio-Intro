@@ -1,5 +1,5 @@
 library(readxl)
-Sample <- read_excel("C:\\Users\\Dongwoo\\Documents\\R\\Data\\Sample.xlsx")
+Sample <- read_excel("C:\\Users\\....\\R\\Data\\Sample.xlsx")
 View(Sample)
 myvars <- names(Sample)%in% c("score")
 sample2 <- Sample[myvars]
